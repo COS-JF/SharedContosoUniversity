@@ -28,6 +28,12 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+        public void AddingThisNewMethod()
+        {
+            // Just hanging out to test adding a method.
+            int test = 0;
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

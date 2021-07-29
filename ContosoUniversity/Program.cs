@@ -16,6 +16,7 @@ namespace ContosoUniversity
             CreateHostBuilder(args).Build().Run();
         }
 
+        // Testing out some changes!
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

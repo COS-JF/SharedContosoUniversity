@@ -12,7 +12,7 @@ namespace ContosoUniversity
     public class Program
     {
         // Testing out some changes.
-        //*********steve o bug fix change**********
+        //*********New Feature**********
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();

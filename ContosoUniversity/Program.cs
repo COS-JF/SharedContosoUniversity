@@ -11,6 +11,7 @@ namespace ContosoUniversity
 {
     public class Program
     {
+        // Testing out some changes.
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();

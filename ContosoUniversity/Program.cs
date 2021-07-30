@@ -14,15 +14,13 @@ namespace ContosoUniversity
         // Testing out some changes.
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            throw new NotImplementedException;
         }
 
         // Testing out some changes! 3
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+        public static IHostBuilder CreateHostBuilder(string[] args)
+        {
+            throw new NotImplementedException;
+        }
     }
 }
